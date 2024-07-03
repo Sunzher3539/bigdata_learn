@@ -121,7 +121,7 @@ zkRoot=${zkRoot:-"/dolphinscheduler"}
  sh ./tools/bin/upgrade-schema.sh
 ```
 此操作，会向MySQL数据库写入元数据，共计65张表，如图所示：
-![[Pasted image 20240629115149.png]]
+![[https://github.com/Sunzher3539/bigdata_learn/tree/main/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%BC%80%E5%8F%91%E4%BD%93%E7%B3%BB/%E5%9B%BE%E7%89%87%E5%AD%98%E5%82%A8/Pasted image 20240629115149.png]]
 ## 4、安装执行
 ```shell
 ./bin/install.sh
